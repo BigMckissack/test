@@ -1,6 +1,6 @@
 {
     "GUID": "e2c66180-5fa3-11e8-a75c-178f86d26fe4",
-    "lastModifTS": "2018-05-24T22:59:56.573Z",
+    "lastModifTS": "2018-07-03T22:42:17.314Z",
     "persistenceSchemaVersion": "1",
     "description": "",
     "comments": "",
@@ -90,8 +90,10 @@
                     "dependencies": [],
                     "required": false,
                     "id": "",
-                    "name": "personId",
-                    "error": {}
+                    "name": "personGUID",
+                    "error": {
+                        "name": false
+                    }
                 },
                 {
                     "type": "string",
@@ -714,7 +716,7 @@
         "ebf9ba41-5fa3-11e8-a75c-178f86d26fe4": "key",
         "ebf96c20-5fa3-11e8-a75c-178f86d26fe4": "person",
         "f4236b30-5fa3-11e8-a75c-178f86d26fe4": "type",
-        "166679d0-5fa4-11e8-a75c-178f86d26fe4": "personId",
+        "166679d0-5fa4-11e8-a75c-178f86d26fe4": "personGUID",
         "16be0fb0-5fa4-11e8-a75c-178f86d26fe4": "personNm",
         "1c0a1c20-5fa4-11e8-a75c-178f86d26fe4": "personFamily",
         "2b415fa0-5fa4-11e8-a75c-178f86d26fe4": "familyMemNm",
